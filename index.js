@@ -2,8 +2,7 @@
 
 var _ = require('lodash');
 var through = require('through2');
-var gutil = require('gulp-util');
-var PluginError = gutil.PluginError;
+var PluginError = require('plugin-error');
 var urllib = require('urllib');
 var formstream = require('formstream');
 var path = require('path');
